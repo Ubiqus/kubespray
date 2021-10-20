@@ -14,6 +14,8 @@
   delegate_to: "{{ groups['kube-master']|first }}"
   changed_when: false
   run_once: true
+  args:
+    executable: bash
 
 - name: remove-node | Generate list of nodes to drain
   set_fact:
