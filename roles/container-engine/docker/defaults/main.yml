@@ -1,6 +1,6 @@
 ---
 docker_version: '20.10'
-docker_cli_version: "{{ docker_version }}"
+docker_cli_version: '20.10'
 
 docker_package_info:
   pkgs:
